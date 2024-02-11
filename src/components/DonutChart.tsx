@@ -20,7 +20,7 @@ class DonutChart extends Component<{}, {options: object, series: any }> {
         colors: ['#10B981', '#38a3a5', '#663399', '#301466'],
         legend: {
           show: true,
-          position: window?.innerWidth < 768 ? 'bottom': 'right',
+          position: 'bottom',
           floating: false,
         }
       },
