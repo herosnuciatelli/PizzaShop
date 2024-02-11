@@ -6,7 +6,7 @@ import {
   DashboardCardTitle,
   DashboardCardValue,
 } from '../../../components/DashboardCard'
-import LineChart from '../../../components/LineChart'
+// import LineChart from '../../../components/LineChart'
 // import DonutChart from '../../../components/DonutChart'
 
 export default function Home() {
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div></div>
           </div>
-          <LineChart />
+          {/* <LineChart /> */}
         </div>
         <div className="border border-zinc-800 px-7 py-10 w-full flex flex-col gap-5 lg:w-2/5">
           <div>
