@@ -2,15 +2,9 @@
 
 import {
   Dialog,
-  DialogClose,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+} from "../components/ui/dialog";
+import { Button } from "../components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,7 +12,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "../components/ui/dropdown-menu";
 
 import Link from 'next/link'
 
@@ -30,7 +24,6 @@ import {
   ChevronDownIcon,
   LogOutIcon,
 } from "lucide-react";
-import { Label } from "@/components/ui/label";
 
 import clsx from "clsx";
 import { usePathname } from 'next/navigation';

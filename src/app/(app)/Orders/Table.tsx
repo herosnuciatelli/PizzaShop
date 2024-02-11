@@ -15,7 +15,7 @@ import {
 } from "@tanstack/react-table"
 import { ArrowRight, ArrowUpDown, ChevronDown, CircleIcon, MoreHorizontal, XIcon } from "lucide-react"
 
-import { Button } from "@/components/ui/button"
+import { Button } from "../../../components/ui/button"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -24,8 +24,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
+} from "../../../components/ui/dropdown-menu"
+import { Input } from "../../../components/ui/input"
 import {
   Table,
   TableBody,
@@ -33,7 +33,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "../../../components/ui/table"
 import clsx from "clsx"
 
 const data: Payment[] = [

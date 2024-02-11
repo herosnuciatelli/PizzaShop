@@ -1,6 +1,6 @@
 'use client'
 
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import Chart from 'react-apexcharts'
 
 class DonutChart extends Component<{}, {options: object, series: any }> {

@@ -5,9 +5,9 @@ import {
   DashboardCardDescription,
   DashboardCardTitle,
   DashboardCardValue,
-} from '@/components/DashboardCard'
-import LineChart from '@/components/LineChart'
-import DonutChart from '@/components/DonutChart'
+} from '../../../components/DashboardCard'
+import LineChart from '../../../components/LineChart'
+import DonutChart from '../../../components/DonutChart'
 
 export default function Home() {
   return (
