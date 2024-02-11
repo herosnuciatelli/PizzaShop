@@ -6,7 +6,7 @@ import {
   DashboardCardTitle,
   DashboardCardValue,
 } from '../../../components/DashboardCard'
-// import LineChart from '../../../components/LineChart'
+// import LineChart from '../../../components/LineChart' // maybe apex chart has some problem
 // import DonutChart from '../../../components/DonutChart'
 
 export default function Home() {
